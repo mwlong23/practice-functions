@@ -27,14 +27,14 @@ var findMiddle = function(sentence){
 
 var sentence = prompt("What is your favorite Sentence."); //use input "I am a sentence"
 var result = findMiddle(sentence);
-alert(result);
+
 
 $(document).ready(function() {
-  $("img").click(function() {
+  $("#dumb").click(function() {
     alert(sentence);
   });
 
-  $("h1").click(function(){
+  $("#excellent").click(function(){
     alert(findMiddle(sentence));
   });
 });
